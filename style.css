@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  color: #375178;
+}
+
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menu a {
+  background-color:#faf9aa;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:5a7837;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:#faf9aa;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
